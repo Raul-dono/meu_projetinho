@@ -2,7 +2,7 @@
 
 header {
 
-    background-image: url(/00-design/imagens/header/header-sobre_mim001b.jpg);
+    background-image: url(imagens/header/header-sobre_mim001b.jpg);
     background-size: contain;
 
 }
@@ -11,7 +11,7 @@ header {
 
     width: 100%;
     height: 140vh;
-    background-image: url(../00-design/imagens/tela_de_fundo/tela_de_fundo-sobre_mim001b.jpg);
+    background-image: url(imagens/tela_de_fundo/tela_de_fundo-sobre_mim001b.jpg);
     background-size: cover;
     background-position: center;
 

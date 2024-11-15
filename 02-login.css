@@ -2,21 +2,21 @@
 
 header {
 
-    background-image: url(/00-design/imagens/header/header-login001a.jpg);
+    background-image: url(imagens/header/header-login001a.jpg);
 
 }
 
 .main_geral {
 
     height: 493px;
-    background-image: url(/00-design/imagens/tela_de_fundo/tela_de_fundo-login001b.jpg);
+    background-image: url(imagens/tela_de_fundo/tela_de_fundo-login001b.jpg);
     
 
 }
 
 .section_geral {
 
-    background-image: url(/00-design/imagens/conteiner/conteiner-login001c.jpg);
+    background-image: url(imagens/conteiner/conteiner-login001c.jpg);
 
 }
 

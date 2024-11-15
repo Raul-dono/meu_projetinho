@@ -2,14 +2,14 @@
 
 header {
 
-    background-image: url(../00-design/imagens/header/header-principal001c.jpg);
+    background-image: url(imagens/header/header-principal001c.jpg);
 
 }
 
 .section_container {
 
     flex-flow: row wrap;
-    background-image: url(../00-design/imagens/tela_de_fundo/tela_de_fundo-principal001b.jpg);
+    background-image: url(imagens/tela_de_fundo/tela_de_fundo-principal001b.jpg);
 
 }
 
@@ -33,7 +33,7 @@ header {
 #conteudo001 {
 
     cursor: pointer;
-    background: url(../00-design/imagens/conteudo/conteudo-principal-login001b.jpg);
+    background: url(imagens/conteudo/conteudo-principal-login001b.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -42,7 +42,7 @@ header {
 #conteudo002 {
 
     cursor: pointer;
-    background: url(../00-design/imagens/conteudo/conteudo-principal-tabuada001b.jpg);
+    background: url(imagens/conteudo/conteudo-principal-tabuada001b.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -51,7 +51,7 @@ header {
 #conteudo003 {
 
     cursor: pointer;
-    background: url(../00-design/imagens/conteudo/conteudo-principal-calculadora001b.jpg);
+    background: url(imagens/conteudo/conteudo-principal-calculadora001b.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -60,7 +60,7 @@ header {
 #conteudo004 {
 
     cursor: pointer;
-    background: url(../00-design/imagens/conteudo/conteudo-principal-sobre_mim001b.jpg);
+    background: url(imagens/conteudo/conteudo-principal-sobre_mim001b.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
