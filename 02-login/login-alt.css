@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .section_geral {
+
+        flex-direction: row;
+        width: 700px;
+        height: 370px;
+        background-image: none;
+        background-color: rgba(211, 211, 211, 0.637);
+
+    }
+
+    .imagem {
+
+        float: left;
+        width: 220px;
+        height: 100%;
+        border-radius: 10px 0px 0px 10px;
+        background-image: url(/00-design/imagens/conteiner/conteiner-login001b.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    .formulario {
+
+        float: right;
+        width: 60%;
+
+    }
+
+    .titulo {
+
+        width: 100%;
+        border-radius: 10px 0px 10px 0px;
+        background-color: #555555de;
+
+    }
+
+    .texto {
+
+        background: none;
+        color: #000;
+
+    }
+
+    input {
+
+        width: 102.5%;
+
+    }
+
+    .botao_entrar, .botao_esqueci {
+
+        width: 105.5%;
+
+    }
+
+}
+
+/* Telas grandes */
+@media screen and (min-width: 992px) {
+
+    .section_geral {
+
+        flex-direction: row;
+        width: 950px;
+        height: 400px;
+        background-image: none;
+        background-color: rgba(211, 211, 211, 0.637);
+
+    }
+
+    .imagem {
+
+        float: left;
+        width: 320px;
+        height: 100%;
+        border-radius: 10px 0px 0px 10px;
+        background-image: url(/00-design/imagens/conteiner/conteiner-login001b.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    .formulario {
+
+        float: right;
+        width: 60%;
+
+    }
+
+    .titulo {
+
+        width: 100%;
+        border-radius: 10px 0px 10px 0px;
+        background-color: #555555de;
+
+    }
+
+    .texto {
+
+        width: 100%;
+        background: none;
+        color: #000;
+
+    }
+
+    input {
+
+        width: 102%;
+
+    }
+
+    .botao_entrar, .botao_esqueci {
+
+        width: 104%;
+
+    }
+
+}

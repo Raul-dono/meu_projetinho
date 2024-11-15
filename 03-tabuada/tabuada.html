@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/00-design/favicon/raul-icon.ico" type="image/x-icon">
+
+    <title>Tabuada</title>
+
+    <!-- CSS Geral -->
+    <link rel="stylesheet" href="/00-design/css/geral.css">
+
+    <!-- Design isolado -->
+    <link rel="stylesheet" href="tabuada.css">
+
+    <!-- Design isolado alternativo -->
+    <link rel="stylesheet" href="tabuada-alt.css">
+
+</head>
+
+<body>
+    
+    <header>
+
+        <h1 id="principal" class="principal">Tabuada</h1>
+
+    </header>
+
+    <nav>
+
+        <button id="voltar" class="voltar">Voltar</button>
+
+        <div id="detalhes" class="detalhes">
+
+            <div id="div_data" class="div_data"></div>
+
+            <div id="div_mensagem" class="div_mensagem"></div>
+
+        </div>
+
+    </nav>
+
+    <main id="main_geral" class="main_geral">
+
+        <section id="section_geral" class="section_geral">
+
+            <div id="imagem" class="imagem">
+
+                <!-- Aqui vai a imagem pelo CSS!! -->
+
+            </div>
+
+            <div id="div_conteudo" class="div_conteudo">
+
+                <h1 id="titulo" class="titulo">Tabuada</h1>
+
+                <p id="texto" class="texto">E aí, quem saber a tabuada de algum número? Confere logo embaixo..</p>
+
+                <div class="div_tabuada">
+
+                    <div id="div_numero" class="div_numero">
+                
+                        <label id="label_numero" class="label_numero">Número:</label>
+                
+                        <input type="number" name="numero" id="input_numero" class="label_numero">
+
+                    </div>
+
+                <div id="div_resultado" class="div_resultado">
+
+                    <select name="tabuada" id="select_tabuada" class="select_tabuada">
+
+                        <option>Digite um número acima..</option>
+
+                    </select>
+
+                </div>
+
+                <button id="gerar" class="gerar" onclick="tabuada ()">Gerar Tabuada</button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>&copy; 2024 Raul-dono</p>
+
+    </footer>
+
+    <script src="./tabuada.js"></script>
+
+    <script src="/00-design/js/nav.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+header {
+
+    background-image: url(/00-design/imagens/header/header-sobre_mim001b.jpg);
+    background-size: contain;
+
+}
+
+.main_geral {
+
+    width: 100%;
+    height: 140vh;
+    background-image: url(../00-design/imagens/tela_de_fundo/tela_de_fundo-sobre_mim001b.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.section_geral {
+
+    width: 470px;
+    height: 100%;
+    box-shadow: none;
+
+}
+
+.div_conteudo {
+
+    width: 470px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(211, 211, 211, 0.637);
+
+}
+
+.conteudo001 {
+
+    float: left;
+    width: 150px;
+    height: 260px;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.paragrafo001 {
+
+    float: right;
+    width: 296px;
+    padding: 10px;
+
+}
+
+.conteudo002 {
+
+    float: right;
+    width: 150px;
+    height: 260px;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.paragrafo002 {
+
+    float: left;
+    width: 296px;
+    padding: 10px;
+
+}
+
+.conteudo003 {
+
+    float: left;
+    width: 150px;
+    height: 260px;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.paragrafo003 {
+
+    float: right;
+    width: 296px;
+    padding: 10px;
+
+}
+
+.conteudo004 {
+
+    float: right;
+    width: 150px;
+    height: 260px;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.paragrafo004 {
+
+    float: left;
+    width: 296px;
+    padding: 10px;
+
+}
+
+mark {
+
+    padding-top: 3px;
+    background-color: #333;
+    color: #fff;
+    text-transform: uppercase;
+
+}

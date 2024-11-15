@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    header {
+
+        background-image: url(/00-design/imagens/header/header-sobre_mim001b-alt001.jpg);
+        background-size: contain;
+    
+    }
+
+    .section_geral {
+
+        width: 720px;
+
+    }
+
+    .div_conteudo {
+
+        width: 620px;
+
+    }
+
+    #div_conteudo001 {
+
+        margin-right: 100px;
+
+    }
+
+    #div_conteudo002 {
+
+        margin-left: 100px;
+
+    }
+
+    #div_conteudo003 {
+
+        margin-right: 100px;
+
+    }
+
+    #div_conteudo004 {
+
+        margin-left: 100px;
+
+    }
+
+    .paragrafo001, .paragrafo002, .paragrafo003, .paragrafo004 {
+
+        width: 446px;
+        margin-top: 13px;
+
+    }
+
+}
+
+/* Telas grandes */
+@media screen and (min-width: 992px) {
+
+    header {
+
+        background-image: url(/00-design/imagens/header/header-sobre_mim001b-alt002.jpg);
+        background-size: contain;
+    
+    }
+
+    .section_geral {
+
+        width: 950px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .div_conteudo {
+
+        width: 850px;
+
+    }
+
+    #div_conteudo001 {
+
+        margin-right: 100px;
+
+    }
+
+    #div_conteudo002 {
+
+        margin-left: 100px;
+
+    }
+
+    #div_conteudo003 {
+
+        margin-right: 100px;
+
+    }
+
+    #div_conteudo004 {
+
+        margin-left: 100px;
+
+    }
+
+    .euzinho001, .euzinho002, .euzinho003, .euzinho004 {
+
+        padding: 1px;
+
+    }
+
+    .paragrafo001, .paragrafo002, .paragrafo003, .paragrafo004 {
+
+        width: 676px;
+        margin-top: 10px;
+
+    }
+
+}

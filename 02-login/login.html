@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/00-design/favicon/raul-icon.ico" type="image/x-icon">
+
+    <title>Faça o Login, por favor</title>
+
+    <!-- Design geral -->
+    <link rel="stylesheet" href="/00-design/css/geral.css">
+
+    <!-- Design isolado -->
+    <link rel="stylesheet" href="login.css">
+
+    <!-- Design isolado alternativo -->
+    <link rel="stylesheet" href="login-alt.css">
+
+</head>
+
+<body>
+    
+    <header>
+
+        <h1 id="principal" class="principal">Login</h1>
+
+    </header>
+
+    <nav>
+
+        <button id="voltar" class="voltar" onclick="back">Voltar</button>
+
+        <div id="detalhes" class="detalhes">
+
+            <div id="div_data" class="div_data"></div>
+
+            <div id="div_mensagem" class="div_mensagem"></div>
+
+        </div>
+
+    </nav>
+
+    <main id="main_geral" class="main_geral">
+
+        <section id="section_geral" class="section_geral">
+
+            <div id="imagem" class="imagem">
+
+                <!-- Aqui vai a imagem pelo CSS!! -->
+
+            </div>
+
+            <div id="formulario" class="formulario">
+
+                <h1 id="titulo" class="titulo">Login</h1>
+
+                <p id="texto" class="texto">Seja bem-vindo(a). Faça o login para fazer as configurações no seu ambiente!!</p>
+
+                <form action="login.php" method="post">
+
+                    <div id="campo" class="campo">
+
+                        <span class="material-symbols-outlined"></span>
+
+                        <input type="email" name="login" id="ilogin" placeholder=" Digite seu e-mail.." autocomplete="email" required maxlength="30">
+
+                        <label for="login">Login</label>
+
+                    </div>
+
+                    <div id="campo" class="campo">
+
+                        <span class="material-symbols-outlined"></span>
+
+                        <input type="password" name="senha" id="isenha" placeholder=" Digite sua senha.." autocomplete="current-password" required minlength="8" maxlength="20">
+
+                        <label for="senha">Senha</label>
+
+                    </div>
+
+                    <input type="submit" value="Entrar" class="botao_entrar">
+
+                    <a href="esqueci.html" class="botao_esqueci">
+
+                        Esqueci a senha <span class="material-symbols-outlined"></span>
+
+                    </a>
+
+                </form>
+            
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>&copy; 2024 Raul-dono</p>
+
+    </footer>
+
+    <script src="/00-design/js/nav.js"></script>
+
+</body>
+
+</html>

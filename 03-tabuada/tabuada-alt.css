@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .main_geral {
+
+        background-position: center;
+
+    }
+
+    .section_geral {
+
+        flex-direction: row;
+        width: 740px;
+        height: 370px;
+        background-image: none;
+        background-color: rgba(211, 211, 211, 0.637);
+
+    }
+
+    .titulo {
+
+        width: 100%;
+        margin-left: 0px;
+        border-radius: 10px 0px 10px 0px;
+        background-color: #555555de;
+
+    }
+
+    .texto {
+
+        background: none;
+        color: #000;
+
+    }
+
+    .imagem {
+
+        float: left;
+        width: 220px;
+        height: 100%;
+        border-radius: 10px 0px 0px 10px;
+        background-image: url(/00-design/imagens/conteiner/conteiner-tabuada001b.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    
+    .div_conteudo {
+
+        float: right;
+        width: 60%;
+        padding-left: 30px;
+
+    }
+
+    .label_numero, .input_numero {
+
+        width: 400px;
+        margin-left: 25px;
+
+    }
+
+    .select_tabuada {
+
+        width:408.5px;
+        margin-left: 24px;
+
+    }
+
+    .gerar {
+
+        width: 350px;
+        margin-left: 55px;
+
+    }
+
+}
+
+/* Telas grandes */
+@media screen and (min-width: 992px) {
+
+    .section_geral {
+
+        flex-direction: row;
+        width: 950px;
+        height: 400px;
+        background-image: none;
+        background-color: rgba(211, 211, 211, 0.637);
+
+    }
+
+    .titulo {
+
+        width: 100%;
+        margin-left: 20px;
+        border-radius: 10px 0px 10px 0px;
+        background-color: #555555de;
+
+    }
+
+    .texto {
+
+        margin-left: 42px;
+        background: none;
+        color: #000;
+
+    }
+
+    .imagem {
+
+        float: left;
+        width: 320px;
+        height: 100%;
+        border-radius: 10px 0px 0px 10px;
+        background-image: url(/00-design/imagens/conteiner/conteiner-tabuada001b.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    .div_conteudo {
+
+        float: right;
+        width: 60%;
+
+    }
+
+    .label_numero, .input_numero {
+
+        width: 535px;
+        margin-left: 45px;
+
+    }
+
+    .select_tabuada {
+
+        width: 543px;
+        margin-left: 45px;
+
+    }
+
+    .gerar {
+
+        width: 500px;
+        margin-top: 50px;
+        margin-left: 65px;
+
+    }
+
+}

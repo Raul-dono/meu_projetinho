@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+header {
+
+    background-image: url(../00-design/imagens/header/header-principal001c.jpg);
+
+}
+
+.section_container {
+
+    flex-flow: row wrap;
+    background-image: url(../00-design/imagens/tela_de_fundo/tela_de_fundo-principal001b.jpg);
+
+}
+
+.conteudo {
+
+    width: 250px;
+    height: 220px;
+    padding: 15px;
+    margin: 15px;
+
+}
+
+.conteudo:hover {
+
+    color: #fff;
+    transform: scale(1.05);
+    /* Leve efeito ao passar o mouse.. */
+
+}
+
+#conteudo001 {
+
+    cursor: pointer;
+    background: url(../00-design/imagens/conteudo/conteudo-principal-login001b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#conteudo002 {
+
+    cursor: pointer;
+    background: url(../00-design/imagens/conteudo/conteudo-principal-tabuada001b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#conteudo003 {
+
+    cursor: pointer;
+    background: url(../00-design/imagens/conteudo/conteudo-principal-calculadora001b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#conteudo004 {
+
+    cursor: pointer;
+    background: url(../00-design/imagens/conteudo/conteudo-principal-sobre_mim001b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+mark {
+
+    background-color: rgba(211, 211, 211, 0.575);
+
+}
+
+.obs {
+
+    background-color: rgba(0, 0, 0, 0.575);
+    color: #ddd;
+
+}

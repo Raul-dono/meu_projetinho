@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+header {
+
+    background-image: url(/00-design/imagens/header/header-login001a.jpg);
+
+}
+
+.main_geral {
+
+    height: 493px;
+    background-image: url(/00-design/imagens/tela_de_fundo/tela_de_fundo-login001b.jpg);
+    
+
+}
+
+.section_geral {
+
+    background-image: url(/00-design/imagens/conteiner/conteiner-login001c.jpg);
+
+}
+
+.formulario {
+
+    display: block;
+    padding: 10px;
+
+}
+
+input {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 94%;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 7px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #333;
+    font-size: 1em;
+
+}
+
+input:hover {
+
+    background-color: #444;
+
+}
+
+input:focus-within {
+
+    background-color: #fff;
+
+}
+
+label {
+
+    display: none;
+
+}
+
+.botao_entrar {
+
+    display: block;
+    cursor: pointer;
+    width: 97%;
+    height: 35px;
+    margin-left: 7px;
+    border-radius: 10px;
+    background-color: #ddd;
+    color: black;
+    font-size: large;
+
+}
+
+.botao_entrar:hover {
+
+    background-color: #000;
+    color: #fff;
+    transition: .2s;
+
+}
+
+.botao_esqueci {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96.8%;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 7px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+
+}
+
+.botao_esqueci:hover {
+
+    background-color: #bbb;
+    color: #333;
+    text-decoration: underline;
+    transition: .2s;
+
+}
