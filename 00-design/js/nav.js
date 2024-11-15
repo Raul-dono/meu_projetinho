@@ -10,7 +10,7 @@ if (voltar) {
 
     voltar.addEventListener (`click`, () => {
 
-    window.location.href='../01-pagina_inicial/inicio.html'
+    window.location.href='../01-pagina_inicial/index.html'
 
 })
 
