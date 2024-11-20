@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Tablet */
+/* --- Tablet --- */
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     .conteudo {
@@ -14,7 +14,9 @@
 
 }
 
-/* Telas grandes */
+
+
+/* --- Telas grandes --- */
 @media screen and (min-width: 992px) {
 
     .conteudo {
